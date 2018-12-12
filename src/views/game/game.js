@@ -3,17 +3,14 @@ import './game.css'
 import Board from '../../components/board/board'
 
 export default class Game extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      history: [
-        {
-          squares: Array(9).fill(null)
-        }
-      ],
-      stepNumber: 0,
-      xIsNext: true
-    }
+  state = {
+    history: [
+      {
+        squares: Array(9).fill(null)
+      }
+    ],
+    stepNumber: 0,
+    xIsNext: true
   }
 
   handleClick(i) {
