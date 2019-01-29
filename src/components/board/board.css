@@ -1,5 +1,5 @@
 .board-row:after {
-  clear: both;
-  content: '';
-  display: table;
+    clear: both;
+    content: '';
+    display: table;
 }

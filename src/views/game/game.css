@@ -1,17 +1,17 @@
 body {
-  font: 14px 'Century Gothic', Futura, sans-serif;
-  margin: 20px;
+    font: 14px 'Century Gothic', Futura, sans-serif;
+    margin: 20px;
 }
 
 ol {
-  padding-left: 30px;
+    padding-left: 30px;
 }
 
 .game {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .game-info {
-  margin-left: 20px;
+    margin-left: 20px;
 }
