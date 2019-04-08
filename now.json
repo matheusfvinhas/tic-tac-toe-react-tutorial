@@ -28,8 +28,5 @@
             "headers": { "cache-control": "s-maxage=0" },
             "dest": "/index.html"
         }
-    ],
-    "scripts": {
-        "now-build": "react-scripts build"
-    }
+    ]
 }
